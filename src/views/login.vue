@@ -48,7 +48,7 @@ export default {
           this.$toast.center('您不是答题者！');
         }
       }catch (err){
-         this.$toast.center('网络异常，请稍后再试！');
+         this.$toast.center('网络异常，请稍后再试..');
       }
     }
   }
